@@ -28,7 +28,7 @@ printf "> "
 read text
         if [ ! "$text" == "end" ]
         then
-        printf "$text" >> feb.txt
+        printf "%s" "$text" >> feb.txt
         printf "\n" >> feb.txt
         else
                 printf "\n" >> feb.txt
